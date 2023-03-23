@@ -20,9 +20,9 @@
 - 루트 노드가 작으면 루트 노드의 오른쪽 
 - 루트 노드가 크면 루트 노드의 왼쪽 
 
-![image](https://user-images.githubusercontent.com/122009563/227131106-f887d9cc-1bd4-455b-9f74-f277ff208885.png)
+![image](https://user-images.githubusercontent.com/122009563/227133684-66b5586c-16cb-4f61-953e-484c929258f5.png)
 
 데이터가 6인 노드를 탐색하는 과정을 살펴보면 => 7->3->6
 
-# Java Code
+# Node Java Code
 
