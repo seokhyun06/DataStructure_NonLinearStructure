@@ -1,5 +1,5 @@
 # 트리(tree)
-- 트리는 정점(Node)과 선분(branch)를 이용하여 사이클을 이루지 않도록 구성한 그래프(Graph)의 특수한 형태이다.
+정점(Node)과 선분(branch)를 이용하여 사이클을 이루지 않도록 구성한 그래프(Graph)의 특수한 형태이다.
 ![그림01](https://user-images.githubusercontent.com/122009563/227128905-00e9cd8c-43aa-4559-8e7d-3602220f1104.jpg)
 
 # 이진트리(binary_tree)
