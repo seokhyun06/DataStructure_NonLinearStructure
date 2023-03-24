@@ -10,7 +10,6 @@
 - 이런 이진 트리에서는 서브 트리가두 개 이하기 때문에 서브 트리는 왼쪽 서브 트리와 오른쪽 서브 트리로 구분한다.
 
 ![image](https://user-images.githubusercontent.com/122009563/227128194-e9fa7e88-7fd4-493e-aabd-1ba4898e6914.png)
-# 1-2) 이진 트리(Binary_Tree)
 ![image](https://user-images.githubusercontent.com/122009563/227396541-7a392b6e-4bff-4473-ad03-30b0488b2034.png)
 
 # 이진 트리 용어
