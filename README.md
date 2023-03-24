@@ -13,19 +13,19 @@
 
 # 이진 트리 용어
 - 디그리(Degree) : 차수로 각 노드에서 뻗어 나온 가지의 수
-   -> A=3, B=2, C=1, D=3
+  -> A=3, B=2, C=1, D=3
 - 단말 노드(Terminal Node, = 잎(Leaf) 노드 ) : 자식이 없는 노드 즉, Degree(차수)가 0인 노드
-   -> K L, F, G, M, I, J
+  -> K L, F, G, M, I, J
 - 비단말 노드(Non-Terminal Node) : 자식이 하나라도 있는 노드, Degree(차수)가 0이 아닌 노드
   -> A, B, C, D, E, H
 - 조상 노드(Ancestors Node) : 임의의 노드에서 근 노드에 이르는 경로상에 있는 노드들
-   -> M의 조상 노드는 H, D, A
+  -> M의 조상 노드는 H, D, A
 - 자식 노드(Son Node) : 어떤 노드에 연결된 다음 레벨의 노드들
-   -> D의 자식 노드는 H, I, J
+  -> D의 자식 노드는 H, I, J
 - 부모 노드(Parent Node) : 어떤 노드에 연결된 이전 레벨의 노드들
-   -> E, F의 부모 노드는 B
+  -> E, F의 부모 노드는 B
 - 형제 노드(Brother Node, Sibling) : 동일한 부모를 갖는 노드들
-   -> H의 형제 노드는 I, J 
+  -> H의 형제 노드는 I, J 
    
 ![image](https://user-images.githubusercontent.com/122009563/227394139-8c6e3699-6993-4cdc-93dc-84b6e3ad7dde.png)
 
@@ -39,7 +39,7 @@
 - 루트 노드가 작으면 루트 노드의 오른쪽 
 - 루트 노드가 크면 루트 노드의 왼쪽 
 
-![image](https://user-images.githubusercontent.com/122009563/227393926-86e0c8ce-80af-4375-b08c-a184b3c83416.png)
+![image](https://user-images.githubusercontent.com/122009563/227395301-0b95cf8e-d6c2-4b51-b638-23acf35b5c52.png)
 
 데이터가 6인 노드를 탐색하는 과정을 살펴보면 => 7->3->6
 
@@ -60,4 +60,3 @@
 
 # 이진 트리(binary_tree) Node Java Code
 ![image](https://user-images.githubusercontent.com/122009563/227391636-89ce56a5-2a5b-4f92-b36e-1702dc004298.png)
-
