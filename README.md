@@ -2,7 +2,7 @@
 정점(Node)과 선분(branch)를 이용하여 사이클을 이루지 않도록 구성한 그래프(Graph)의 특수한 형태이다.
 ![그림01](https://user-images.githubusercontent.com/122009563/227128905-00e9cd8c-43aa-4559-8e7d-3602220f1104.jpg)
 
-# 이진트리(binary_tree)
+# 이진 트리(binary_tree)
 
 # 설명
 - 모든 노드들의 자식 노드가 두 개 이하인 트리를 의미하는데, 다음은 이진 트리의예다. 
@@ -24,5 +24,13 @@
 
 데이터가 6인 노드를 탐색하는 과정을 살펴보면 => 7->3->6
 
-# 이진트리(binary_tree) Node Java Code
+# 이진 트리 삭제
+- 이진 탐색 트리에서 노드를 삭제하는 동작은 삭제할 노드의 위치에 따라 세 가지로 구분된다.
+- 삭제할 노드가 단말 노드인 경우 부모 노드에서 삭제할 노드를 가리키는 링크를 제거하면 된다. 
+- 데이터가 6인 노드를 삭제하려면 부모 노드인 데이터가 7인 노드에서 삭제할 노드를 가리키는 링크를 제거
+      
+![image](https://user-images.githubusercontent.com/122009563/227392101-5663d8af-c4ef-4a91-9fd1-9861e200cd31.png)
+
+# 이진 트리(binary_tree) Node Java Code
+![image](https://user-images.githubusercontent.com/122009563/227391636-89ce56a5-2a5b-4f92-b36e-1702dc004298.png)
 
