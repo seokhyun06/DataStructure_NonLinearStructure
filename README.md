@@ -24,5 +24,5 @@
 
 데이터가 6인 노드를 탐색하는 과정을 살펴보면 => 7->3->6
 
-# Node Java Code
+# 이진트리(binary_tree) Node Java Code
 
