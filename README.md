@@ -11,6 +11,23 @@
 
 ![image](https://user-images.githubusercontent.com/122009563/227128194-e9fa7e88-7fd4-493e-aabd-1ba4898e6914.png)
 
+# 이진 트리 용어
+- 디그리(Degree) : 차수로 각 노드에서 뻗어 나온 가지의 수
+   -> A=3, B=2, C=1, D=3
+- 단말 노드(Terminal Node, = 잎(Leaf) 노드 ) : 자식이 없는 노드 즉, Degree(차수)가 0인 노드
+   -> K L, F, G, M, I, J
+- 비단말 노드(Non-Terminal Node) : 자식이 하나라도 있는 노드, Degree(차수)가 0이 아닌 노드
+  -> A, B, C, D, E, H
+- 조상 노드(Ancestors Node) : 임의의 노드에서 근 노드에 이르는 경로상에 있는 노드들
+   -> M의 조상 노드는 H, D, A
+- 자식 노드(Son Node) : 어떤 노드에 연결된 다음 레벨의 노드들
+   -> D의 자식 노드는 H, I, J
+- 부모 노드(Parent Node) : 어떤 노드에 연결된 이전 레벨의 노드들
+   -> E, F의 부모 노드는 B
+- 형제 노드(Brother Node, Sibling) : 동일한 부모를 갖는 노드들
+   -> H의 형제 노드는 I, J 
+![image](https://user-images.githubusercontent.com/122009563/227394139-8c6e3699-6993-4cdc-93dc-84b6e3ad7dde.png)
+
 # 이진 트리 탐색(Binary Search Tree)
 - 이진 탐색 트리(binary search tree)는 데이터의 삽입, 삭제, 탐색 등이 자주 발생하는 경우에 효율적인 구조로
 - 이진 트리이면서 같은 값을 갖는 노드가 없어야 한다.
@@ -21,9 +38,17 @@
 - 루트 노드가 작으면 루트 노드의 오른쪽 
 - 루트 노드가 크면 루트 노드의 왼쪽 
 
-![image](https://user-images.githubusercontent.com/122009563/227133684-66b5586c-16cb-4f61-953e-484c929258f5.png)
+![image](https://user-images.githubusercontent.com/122009563/227393926-86e0c8ce-80af-4375-b08c-a184b3c83416.png)
 
 데이터가 6인 노드를 탐색하는 과정을 살펴보면 => 7->3->6
+
+# 이진 트리 삽입
+- 이진 탐색 트리에서의 삽입은 탐색 동작을 통해 이루어진다. 
+- 탐색에 성공하면 삽입은 실패하는데, 이는 이진 탐색 트리는 같은 데이터를 갖는 노드가 없어야 하기 때문이다. 
+- 반면에 탐색에 실패하면 삽입을 할 수 있으며, 탐색에 종료된 지점의 데이터를 값으로 하는 노드가 삽입된다. 
+- 삽입할 위치는 루트 노드에서부터 시작되며 삽입할 노드의 데이터가 비교하는 노드의 데이터보다 작으면 왼쪽 서브 트리로 진행하고 크면 오른쪽 서브 트리로 진행한다.
+- 
+![image](https://user-images.githubusercontent.com/122009563/227393646-08ad0200-7b30-418f-8a89-b46f22b15724.png)
 
 # 이진 트리 삭제
 - 이진 탐색 트리에서 노드를 삭제하는 동작은 삭제할 노드의 위치에 따라 세 가지로 구분된다.
